@@ -15,6 +15,12 @@ const Navbar = () => {
           >
             Home
           </Link>
+           <Link
+            to="/about"
+            className="px-4 py-2  rounded transform transition hover:hover:bg-gray-600 hover:text-white duration-300"
+          >
+            About
+          </Link>
           <Link
             to="/gallery"
             className="px-4 py-2  rounded transform transition hover:hover:bg-gray-600 hover:text-white duration-300"
@@ -27,12 +33,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link
-            to="/about"
-            className="px-4 py-2  rounded transform transition hover:hover:bg-gray-600 hover:text-white duration-300"
-          >
-            About
-          </Link>
+         
           <button className="px-4 py-2 bg-blue-500 transform transition hover:bg-blue-300 rounded duration-300 ">
             Login
           </button>
@@ -52,6 +53,12 @@ const Navbar = () => {
             Home
           </Link>
           <Link
+            to="/about"
+            className="px-4 py-2 transform transition hover:hover:bg-gray-600 hover:text-white duration-300 w-full flex justify-center"
+          >
+            About
+          </Link>
+          <Link
             to="/gallery"
             className="px-4 py-2 transform transition hover:hover:bg-gray-600 hover:text-white duration-300 w-full flex justify-center"
           >
@@ -63,12 +70,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link
-            to="/about"
-            className="px-4 py-2 transform transition hover:hover:bg-gray-600 hover:text-white duration-300 w-full flex justify-center"
-          >
-            About
-          </Link>
+          
           <button className="bg-blue-500 px-10 py-2 transform transition hover:hover:bg-blue-400 duration-300 rounded-full">
             Login
           </button>
